@@ -1,0 +1,13 @@
+2024-04-21 22:35:59 [main] INFO  com.thread.slf4j.Test_Slf4j - Hello1,123,456
+2024-04-21 22:35:59 [main] ERROR com.thread.slf4j.Test_Slf4j - Hello2, 123
+2024-04-21 22:35:59 [main] WARN  com.thread.slf4j.Test_Slf4j - Hello3
+2024-04-21 22:35:59 [main] DEBUG com.thread.slf4j.Test_Slf4j - Hello4
+2024-04-21 22:35:59 [main] TRACE com.thread.slf4j.Test_Slf4j - Hello5
+2024-04-21 22:36:46 [main] INFO  com.thread.slf4j.Test_Slf4j - Hello1,123,456
+2024-04-21 22:36:46 [main] ERROR com.thread.slf4j.Test_Slf4j - Hello2, 123
+2024-04-21 22:36:46 [main] WARN  com.thread.slf4j.Test_Slf4j - Hello3
+2024-04-21 22:36:46 [main] DEBUG com.thread.slf4j.Test_Slf4j - Hello4
+2024-04-21 22:36:46 [main] TRACE com.thread.slf4j.Test_Slf4j - Hello5
+2024-04-21 22:36:46 [main] ERROR com.thread.slf4j.Test_Slf4j - error exception
+java.lang.RuntimeException: test error
+	at com.thread.slf4j.Test_Slf4j.main(Test_Slf4j.java:14)
