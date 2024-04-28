@@ -1,65 +1,8 @@
-2024-04-26 00:27:22 [main] INFO  MQ - Hello
-2024-04-26 01:01:41 [consumer] DEBUG MQ - 對列為空 ...
-2024-04-26 01:02:43 [consumer] DEBUG MQ - 對列為空 ...
-2024-04-26 01:02:43 [consumer] INFO  Test5 - result message Message{id=2, value=message 2}
-2024-04-26 01:04:52 [producer-2] DEBUG MQ - 對列已滿
-2024-04-26 01:08:12 [producer-0] DEBUG MQ - 以生產消息 Message{id=0, value=message 0}
-2024-04-26 01:08:12 [producer-2] DEBUG MQ - 以生產消息 Message{id=2, value=message 2}
-2024-04-26 01:08:12 [producer-1] DEBUG MQ - 以生產消息 Message{id=1, value=message 1}
-2024-04-26 01:09:23 [producer-0] DEBUG MQ - 以生產消息 Message{id=0, value=message 0}
-2024-04-26 01:09:23 [producer-1] DEBUG MQ - 以生產消息 Message{id=1, value=message 1}
-2024-04-26 01:09:23 [producer-2] DEBUG MQ - 以生產消息 Message{id=2, value=message 2}
-2024-04-26 01:09:46 [producer-2] DEBUG MQ - 以生產消息 Message{id=2, value=message 2}
-2024-04-26 01:09:46 [producer-0] DEBUG MQ - 以生產消息 Message{id=0, value=message 0}
-2024-04-26 01:09:46 [producer-1] DEBUG MQ - 對列已滿
-2024-04-26 01:10:11 [consumer] DEBUG MQ - 對列為空 ...
-2024-04-26 01:10:11 [producer-2] DEBUG MQ - 以生產消息 Message{id=2, value=message 2}
-2024-04-26 01:10:11 [producer-0] DEBUG MQ - 以生產消息 Message{id=0, value=message 0}
-2024-04-26 01:10:11 [producer-1] DEBUG MQ - 對列已滿
-2024-04-26 01:10:11 [producer-1] DEBUG MQ - 以生產消息 Message{id=1, value=message 1}
-2024-04-26 01:10:11 [consumer] INFO  Test5 - result message Message{id=2, value=message 2}
-2024-04-26 01:11:02 [consumer] DEBUG MQ - 對列為空 ...
-2024-04-26 01:11:02 [producer-2] DEBUG MQ - 以生產消息 Message{id=2, value=message 2}
-2024-04-26 01:11:02 [producer-0] DEBUG MQ - 以生產消息 Message{id=0, value=message 0}
-2024-04-26 01:11:02 [producer-1] DEBUG MQ - 對列已滿
-2024-04-26 01:11:02 [consumer] DEBUG MQ - 已取出消息 Message{id=2, value=message 2}
-2024-04-26 01:11:02 [producer-1] DEBUG MQ - 以生產消息 Message{id=1, value=message 1}
-2024-04-26 01:11:02 [consumer] INFO  Test5 - result message Message{id=2, value=message 2}
-2024-04-26 01:12:31 [consumer] DEBUG MQ - 對列為空 ...
-2024-04-26 01:12:31 [producer-2] DEBUG MQ - 已生產消息 Message{id=2, value=message2}
-2024-04-26 01:12:31 [producer-1] DEBUG MQ - 已生產消息 Message{id=1, value=message1}
-2024-04-26 01:12:31 [producer-0] DEBUG MQ - 對列已滿
-2024-04-26 01:12:31 [consumer] DEBUG MQ - 已取出消息 Message{id=2, value=message2}
-2024-04-26 01:12:31 [producer-0] DEBUG MQ - 已生產消息 Message{id=0, value=message0}
-2024-04-26 01:12:31 [consumer] INFO  Test5 - result message Message{id=2, value=message2}
-2024-04-26 01:13:14 [consumer] DEBUG MQ - 對列為空 ...
-2024-04-26 01:13:14 [producer-1] DEBUG MQ - 已生產消息 Message{id=1, value=message1}
-2024-04-26 01:13:14 [producer-0] DEBUG MQ - 已生產消息 Message{id=0, value=message0}
-2024-04-26 01:13:14 [producer-2] DEBUG MQ - 已生產消息 Message{id=2, value=message2}
-2024-04-26 01:13:14 [consumer] DEBUG MQ - 已取出消息 Message{id=1, value=message1}
-2024-04-26 01:13:14 [consumer] INFO  Test5 - result message Message{id=1, value=message1}
-2024-04-26 01:13:49 [producer-1] DEBUG MQ - 已生產消息 Message{id=1, value=message1}
-2024-04-26 01:13:49 [producer-2] DEBUG MQ - 已生產消息 Message{id=2, value=message2}
-2024-04-26 01:13:49 [producer-0] DEBUG MQ - 對列已滿
-2024-04-26 01:15:55 [producer-2] DEBUG MQ - 已生產消息 Message{id=2, value=message2}
-2024-04-26 01:15:55 [producer-1] DEBUG MQ - 已生產消息 Message{id=1, value=message1}
-2024-04-26 01:15:55 [producer-0] DEBUG MQ - 對列已滿
-2024-04-26 01:15:56 [consumer] DEBUG MQ - 已取出消息 Message{id=2, value=message2}
-2024-04-26 01:15:56 [producer-0] DEBUG MQ - 已生產消息 Message{id=0, value=message0}
-2024-04-26 01:15:56 [consumer] INFO  Test5 - result message Message{id=2, value=message2}
-2024-04-26 01:15:57 [consumer] DEBUG MQ - 已取出消息 Message{id=1, value=message1}
-2024-04-26 01:15:57 [consumer] INFO  Test5 - result message Message{id=1, value=message1}
-2024-04-26 01:15:58 [consumer] DEBUG MQ - 已取出消息 Message{id=0, value=message0}
-2024-04-26 01:15:58 [consumer] INFO  Test5 - result message Message{id=0, value=message0}
-2024-04-26 01:15:59 [consumer] DEBUG MQ - 對列為空 ...
-2024-04-26 01:19:18 [producer-2] DEBUG MQ - 已生產消息 Message{id=2, value=message2}
-2024-04-26 01:19:18 [producer-1] DEBUG MQ - 已生產消息 Message{id=1, value=message1}
-2024-04-26 01:19:18 [producer-0] DEBUG MQ - 對列已滿
-2024-04-26 01:19:19 [consumer] DEBUG MQ - 已取出消息 Message{id=2, value=message2}
-2024-04-26 01:19:19 [producer-0] DEBUG MQ - 已生產消息 Message{id=0, value=message0}
-2024-04-26 01:19:19 [consumer] INFO  Test5 - result message Message{id=2, value=message2}
-2024-04-26 01:19:20 [consumer] DEBUG MQ - 已取出消息 Message{id=1, value=message1}
-2024-04-26 01:19:20 [consumer] INFO  Test5 - result message Message{id=1, value=message1}
-2024-04-26 01:19:21 [consumer] DEBUG MQ - 已取出消息 Message{id=0, value=message0}
-2024-04-26 01:19:21 [consumer] INFO  Test5 - result message Message{id=0, value=message0}
-2024-04-26 01:19:22 [consumer] DEBUG MQ - 對列為空 ...
+2024-04-28 16:33:32 [yun] DEBUG test6 - 有菸嗎? false
+2024-04-28 16:33:32 [yun] DEBUG test6 - 沒有菸，那我先休息一下 !
+2024-04-28 16:33:32 [fr] DEBUG test6 - 外賣來了嗎? false
+2024-04-28 16:33:32 [fr] DEBUG test6 - 沒外賣，那我先休息一下 !
+2024-04-28 16:33:33 [送外賣的] DEBUG test6 - 外賣到了，叫醒!
+2024-04-28 16:33:33 [fr] DEBUG test6 - 可以開始工作了
+2024-04-28 16:33:34 [送菸的] DEBUG test6 - 菸到了，叫醒!
+2024-04-28 16:33:34 [yun] DEBUG test6 - 可以開始工作了
